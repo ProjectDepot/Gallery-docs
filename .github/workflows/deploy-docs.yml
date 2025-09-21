@@ -10,6 +10,9 @@ jobs:
   deploy_docs:
     runs-on: ubuntu-latest
     name: Deploy Docs
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
