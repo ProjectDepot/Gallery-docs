@@ -12,7 +12,16 @@ To customize the app, create your own configuration file:
 ### Header
 
 - **Enable/Disable the app's Header**
+- **Site Title**: Customize the main site title. Use `{username}` to include the GitHub username (it will be linked to the profile on GitHub).
 - **Header Text**: Enable/Disable or change the text to the right of your profile image (set to a blank string to disable)
+
+```json
+{
+	"header": true,
+	"siteTitle": "{username}'s Sites",
+	"headerText": "A list of my projects that have a GitHub Pages site."
+}
+```
 
 ### Hero Section
 
