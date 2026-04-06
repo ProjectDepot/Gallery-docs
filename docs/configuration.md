@@ -23,18 +23,13 @@ To customize the app, create your own configuration file:
 }
 ```
 
-### Hero Section
+### Hero Section - Use Your GitHub README
 
-Configure the hero section:
+You can use your [GitHub profile README][GH-p-r] as your hero text by creating a repository that's named your username.
 
-```json
-{
-	"hero": {
-		"src": "/hero.md",
-		"center": true
-	}
-}
-```
+For example I named mine `parsehex`, i.e. I have a repository called [`parsehex/parsehex`](https://github.com/parsehex/parsehex) that's just the README.
+
+[GH-p-r]: https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
 
 ### Display Mode
 
